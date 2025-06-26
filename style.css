@@ -13,3 +13,16 @@ height: auto;
  h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
+ 
+ .My-interests {
+    background-color: rgb(53, 139, 0);
+ }
+ .my-button {
+    background-color: rgb(164, 243, 148);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .image-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 5px;
+ }
