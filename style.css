@@ -1,5 +1,7 @@
 body {
-    background-color: cyan;
+    background: linear-gradient(to right,#0dccda, #59c352 );
+    padding: 100px;
+
 }
 h1{
     text-align: center;
@@ -18,11 +20,20 @@ height: auto;
     background-color: rgb(53, 139, 0);
  }
  .my-button {
-    background-color: rgb(164, 243, 148);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(40, 89, 211);
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: antiquewhite;
+margin-top: 20px;
  }
+
+
  .image-grid {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 5px;
+
+   gap: 10px;
+   row-gap: 20px;
  }
+
+
+
+
+
